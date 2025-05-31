@@ -5,8 +5,8 @@ import path from 'path';
 import { fileURLToPath } from 'url';
 
 // UNCOMMENT THESE IMPORTS
-import paymentsRouter from './src/routes/payments.js';
-import merchantsRouter from './src/routes/merchants.js';
+import paymentsRouter from './routes/payments.js';
+import merchantsRouter from './routes/merchants.js';
 
 // ES modules setup
 const __filename = fileURLToPath(import.meta.url);
